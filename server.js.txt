@@ -1,0 +1,25 @@
+const express = require('express');
+const { exec } = require('child_process');
+const app = express();
+const port = 3000;
+
+// Endpoint untuk menjalankan skrip
+app.get('/run-script', (req, res) => {
+    exec('node discordBot.js', (error, stdout, stderr) => {
+        if (error) {
+            console.error(`Error: ${error.message}`);
+            return res.status(500).send('Gagal menjalankan skrip.');
+        }
+        if (stderr) {
+            console.error(`Stderr: ${stderr}`);
+            return res.status(500).send('Terjadi kesalahan saat menjalankan skrip.');
+        }
+        console.log(`Output: ${stdout}`);
+        res.send('Skrip berhasil dijalankan!');
+    });
+});
+
+// Jalankan server
+app.listen(port, () => {
+    console.log(`Server berjalan di http://localhost:${port}`);
+});

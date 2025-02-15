@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot</title>
+</head>
+<body>
+    <h1>Discord Bot</h1>
+    <button id="run-script">Jalankan Skrip</button>
+    <p id="status"></p>
+
+    <script>
+        document.getElementById('run-script').addEventListener('click', async () => {
+            const response = await fetch('/run-script');
+            const result = await response.text();
+            document.getElementById('status').innerText = result;
+        });
+    </script>
+</body>
+</html>
