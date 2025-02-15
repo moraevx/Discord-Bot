@@ -2,7 +2,10 @@
 
 Proyek ini hanya untuk experimen dan edukasi semata, gunakan dengan bijak. kami tidak bertanggung jawab apabila proyek ini digunakan untuk tujuan yang tidak tepat.
 **Gunakan dengan bijak** kami tidak bertanggung jawab apa bila akun yang anda gunakan di tangguhkan sementara atau di blokir secara permanet.
-
+##Fitur
+- Waktu Jeda dapat di atur
+- Dapat di gunakan di PC/HP
+  
 i'm Moraevx 
 
 **Terima Kasih**
@@ -74,7 +77,7 @@ i'm Moraevx
 4. **Jalankan skrip:**
 
    ```bash
-   python3 main.py
+   node DiscordBot.js
    ```
 
    Skrip ini akan secara otomatis:
