@@ -7,6 +7,7 @@ i'm Moraevx
 
 **Terima Kasih**
 
+# PC User
 ## Instal python (lewati jika sudah)
 
 1. **Instal python3:**
@@ -21,15 +22,11 @@ i'm Moraevx
    ```bash
    python3 --version
    ```
-## Paket Python:
+## Instal Playwright:
 1. **Cari paket yang sesuai:**
    ```bash
-   apt search python3-requests
-   apt search python3-termcolor
-   ```
-2. **Instal paket:**
-   ```bash
-   sudo apt install python3-requests python3-termcolor
+   pip install playwright
+   playwright install
    ```
 ## Aplikasi:
 
