@@ -50,7 +50,7 @@ i'm Moraevx
    Contoh isi `config.json`:
 
    ```bash
-      {
+   {
      "url": "https://discord.com/channels/11111.1111", //Masukan url channel tujuan
      "email": "Email_anda", //masukan email discord
      "password": "Password_anda", //masukan password 
