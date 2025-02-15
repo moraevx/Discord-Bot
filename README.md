@@ -4,7 +4,6 @@ Proyek ini hanya untuk experimen dan edukasi semata, gunakan dengan bijak. kami 
 **Gunakan dengan bijak** kami tidak bertanggung jawab apa bila akun yang anda gunakan di tangguhkan sementara atau di blokir secara permanet.
 ##Fitur
 - Waktu Jeda dapat di atur
-- Dapat di gunakan di PC/HP
   
 i'm Moraevx 
 
