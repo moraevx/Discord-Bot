@@ -39,13 +39,36 @@ i'm Moraevx
 
 3. **Ganti file `config.json` :**
 
-   `nano config.json`
+   Ubah dengan menggunakan perintah
+   ```
+   nano config.json
+   ```
 
-   Contoh isi `auth.txt`:
+   Contoh isi `config.json`:
 
    ```
-   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
-   eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ8...
+   {
+  "url": "url_Channel_Tujuan_Contoh=https://discord.com/channels/11111.1111",
+  "email": "Email_anda",
+  "password": "Password_anda",
+  "tasks": [
+    {
+      "channel": "Channel_yang_dituju",
+      "message": "isi_pesan_1",
+      "delay": 120000
+    },
+    {
+      "channel": "Channel_yang_dituju",
+      "message": "isi_pesan_2",
+      "delay": 120000
+    },
+    {
+      "channel": "Channel_yang_dituju",
+      "message": "isi_pesan_3",
+      "delay": 120000
+    }
+  ]
+}
    ```
 
 4. **Jalankan skrip:**
