@@ -46,29 +46,29 @@ i'm Moraevx
 
    Contoh isi `config.json`:
 
-   ```
-   {
-  "url": "url_Channel_Tujuan_Contoh=https://discord.com/channels/11111.1111",
-  "email": "Email_anda",
-  "password": "Password_anda",
-  "tasks": [
-    {
-      "channel": "Channel_yang_dituju",
-      "message": "isi_pesan_1",
-      "delay": 120000
-    },
-    {
-      "channel": "Channel_yang_dituju",
-      "message": "isi_pesan_2",
-      "delay": 120000
-    },
-    {
-      "channel": "Channel_yang_dituju",
-      "message": "isi_pesan_3",
-      "delay": 120000
-    }
-  ]
-}
+   ```bash
+      {
+     "url": "url_Channel_Tujuan_Contoh=https://discord.com/channels/11111.1111",
+     "email": "Email_anda",
+     "password": "Password_anda",
+     "tasks": [
+       {
+         "channel": "Channel_yang_dituju",
+         "message": "isi_pesan_1",
+         "delay": 120000
+       },
+       {
+         "channel": "Channel_yang_dituju",
+         "message": "isi_pesan_2",
+         "delay": 120000
+       },
+       {
+         "channel": "Channel_yang_dituju",
+         "message": "isi_pesan_3",
+         "delay": 120000
+       }
+     ]
+   }
    ```
 
 4. **Jalankan skrip:**
