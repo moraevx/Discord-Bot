@@ -33,8 +33,8 @@ i'm Moraevx
 1. **Clone repositori ini:**
  
    ```bash
-   git clone https://github.com/moraevx/assister.git
-   cd assister
+   git clone https://github.com/moraevx/Discord-Bot.git
+   cd Discord-Bot
    ```
 
 3. **Siapkan file `auth.txt`:**
