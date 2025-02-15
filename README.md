@@ -51,24 +51,24 @@ i'm Moraevx
 
    ```bash
       {
-     "url": "url_Channel_Tujuan_Contoh=https://discord.com/channels/11111.1111",
-     "email": "Email_anda",
-     "password": "Password_anda",
+     "url": "https://discord.com/channels/11111.1111", //Masukan url channel tujuan
+     "email": "Email_anda", //masukan email discord
+     "password": "Password_anda", //masukan password 
      "tasks": [
        {
          "channel": "Channel_yang_dituju",
          "message": "isi_pesan_1",
-         "delay": 120000
+         "delay": 120000 //ganti waktu sesuai kebuthan 10000 : 1 menit
        },
        {
          "channel": "Channel_yang_dituju",
          "message": "isi_pesan_2",
-         "delay": 120000
+         "delay": 120000 //ganti waktu sesuai kebuthan 10000 : 1 menit
        },
        {
          "channel": "Channel_yang_dituju",
          "message": "isi_pesan_3",
-         "delay": 120000
+         "delay": 120000 //ganti waktu sesuai kebuthan 10000 : 1 menit
        }
      ]
    }
