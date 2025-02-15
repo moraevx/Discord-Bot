@@ -8,27 +8,27 @@ i'm Moraevx
 **Terima Kasih**
 
 # PC User
-## Instal python (lewati jika sudah)
+## Node.Js (lewati jika sudah)
 
-1. **Instal python3:**
+1. **Update Package List :**
    ```bash
-   sudo apt install python3
+   sudo apt update
    ```
-2. **Instal PIP:**
+2. **Instal Node.js :**
    ```bash
-   sudo apt install python3-pip
+   sudo apt install nodejs
    ```
-3. **Verifikasi instalasi:**
+3. **Instal npm (Node Package Manager) :**
    ```bash
-   python3 --version
+   sudo apt install npm
    ```
-## Instal Playwright:
-1. **Cari paket yang sesuai:**
+4. **Verifikasi Instalasi :**
    ```bash
-   pip install playwright
-   playwright install
+   node -v
+   npm -v
    ```
-## Aplikasi:
+
+## Aplikasi :
 
 1. **Clone repositori ini:**
  
@@ -37,10 +37,9 @@ i'm Moraevx
    cd Discord-Bot
    ```
 
-3. **Siapkan file `auth.txt`:**
+3. **Ganti file `config.json` :**
 
-   - Buat file bernama `auth.txt` di direktori yang sama dengan skrip.
-   - Tambahkan token otentikasi Anda, satu token per baris. Setiap token mewakili akun yang berbeda.
+   `nano config.json`
 
    Contoh isi `auth.txt`:
 
