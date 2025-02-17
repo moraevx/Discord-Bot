@@ -79,7 +79,4 @@ i'm Moraevx
    node DiscordBot.js
    ```
 
-   Skrip ini akan secara otomatis:
-   - Mengklaim poin harian untuk setiap akun.
-
 
