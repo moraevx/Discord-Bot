@@ -9,7 +9,7 @@ i'm Moraevx
 
 **Terima Kasih**
 
-# PC User
+# Only Visual Studi Code
 ## Node.Js (lewati jika sudah)
 
 1. **Update Package List :**
