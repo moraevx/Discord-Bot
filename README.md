@@ -82,25 +82,4 @@ i'm Moraevx
    Skrip ini akan secara otomatis:
    - Mengklaim poin harian untuk setiap akun.
 
-## Mengambil Token Otentikasi
 
-Untuk mengambil `auth` dari cookies di browser:
-
-1. **Buka Developer Tools:**
-   - Tekan `F12` atau `Ctrl + Shift + I` di Windows/Linux, atau `Cmd + Option + I` di macOS.
-   - Buka tab **Console**.
-
-2. **Jalankan skrip berikut di console:**
-
-   ```javascript
-   let cookies = document.cookie.split('; ');
-   let refreshToken = cookies.find(cookie => cookie.startsWith('refreshToken=')).split('=')[1];
-   prompt('UGD AIRDROP:', refreshToken);
-   ```
-
-   - Sebuah prompt akan muncul dengan `auth`. Salin token tersebut dan tempelkan ke file `auth.txt`.
-
-## Catatan:
-
-- Pastikan Anda memperbarui file `auth.txt` dengan token yang valid secara berkala agar otomasi tetap berfungsi.
-- Skrip akan berhenti selama 24 jam setelah setiap kali dijalankan, menunggu untuk mengklaim poin harian berikutnya. Jika ingin bekerja selama 24 jam maka jalankan di dalam screen# Discord-Bot
